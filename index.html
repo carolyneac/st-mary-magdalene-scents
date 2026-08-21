@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>St. Mary Magdalene Scents | Luxury Fragrances</title>
+<meta name="description" content="St. Mary Magdalene Scents — luxury fragrances, authentic scents and timeless elegance.">
+<style>
+:root{
+  --green:#063b25; --deep:#021b12; --gold:#d7ad55; --cream:#f7f0df;
+  --muted:#d8c99f; --black:#070707;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--deep);color:var(--cream);line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:10;background:rgba(2,27,18,.96);border-bottom:1px solid rgba(215,173,85,.45);backdrop-filter:blur(8px)}
+.nav-inner{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 22px}
+.nav-logo{height:58px;width:auto;object-fit:contain}
+.nav-links{display:flex;gap:25px;font-size:15px;letter-spacing:1px}
+.nav-links a:hover{color:var(--gold)}
+.hero{min-height:72vh;display:flex;align-items:center;justify-content:center;background:
+linear-gradient(rgba(0,35,21,.30),rgba(0,15,9,.60)),url('hero.png') center/cover no-repeat;
+padding:45px 20px}
+.hero-card{max-width:760px;text-align:center;padding:30px 20px}
+.hero h1{font-size:clamp(38px,6vw,76px);letter-spacing:2px;text-shadow:0 4px 18px #000}
+.hero p{font-size:clamp(18px,2.4vw,28px);font-style:italic;margin:12px 0 28px}
+.btn{display:inline-block;background:var(--gold);color:#15110a;padding:13px 28px;border-radius:3px;font-weight:bold;letter-spacing:1px;box-shadow:0 5px 20px rgba(0,0,0,.3)}
+.btn:hover{background:#efd17e}
+section{padding:70px 22px}
+.wrap{max-width:1100px;margin:auto}
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:38px;color:var(--gold);letter-spacing:2px}
+.title p{color:var(--muted);max-width:650px;margin:8px auto}
+.about{background:#041f14}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:linear-gradient(145deg,#0a3a26,#03180f);border:1px solid rgba(215,173,85,.38);padding:28px;text-align:center;border-radius:8px}
+.card .icon{font-size:30px;color:var(--gold);margin-bottom:10px}
+.card h3{color:var(--gold);margin-bottom:8px}
+.shop{background:#020f0a}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product{border:1px solid rgba(215,173,85,.35);padding:25px;text-align:center;border-radius:8px;background:#071f15}
+.product h3{color:var(--gold);font-size:22px}
+.product p{color:#ddd1ad;margin:10px 0 18px}
+.contact{background:linear-gradient(120deg,#063b25,#020e09)}
+.contact-box{text-align:center;max-width:760px;margin:auto}
+.contact-box p{margin:10px 0 25px}
+footer{border-top:1px solid rgba(215,173,85,.4);padding:25px;text-align:center;color:var(--muted);background:#010907}
+@media(max-width:760px){
+ .nav-inner{flex-direction:column;gap:8px}.nav-logo{height:48px}.nav-links{gap:13px;font-size:12px}
+ .cards,.products{grid-template-columns:1fr}
+ .hero{min-height:65vh}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="#home"><img src="logo.png" class="nav-logo" alt="St. Mary Magdalene Scents logo"></a>
+    <div class="nav-links">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#shop">SCENTS</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </div>
+</nav>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-card">
+    <h1>St. Mary Magdalene Scents</h1>
+    <p>Elegance in Every Drop</p>
+    <a class="btn" href="#shop">EXPLORE OUR SCENTS</a>
+  </div>
+</section>
+
+<section id="about" class="about">
+ <div class="wrap">
+  <div class="title">
+   <h2>Luxury, Authentically Yours</h2>
+   <p>Fragrances selected for those who appreciate elegance, character and a lasting impression.</p>
+  </div>
+  <div class="cards">
+   <div class="card"><div class="icon">✦</div><h3>Authentic Premium Perfumes</h3><p>Beautifully selected fragrances with a focus on quality and authenticity.</p></div>
+   <div class="card"><div class="icon">♡</div><h3>Carefully Packaged</h3><p>Every order is prepared with care, because your experience matters.</p></div>
+   <div class="card"><div class="icon">✧</div><h3>Reliable Delivery</h3><p>Convenient delivery options for customers in Nairobi and beyond.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="shop" class="shop">
+ <div class="wrap">
+  <div class="title">
+   <h2>Discover Your Signature Scent</h2>
+   <p>Explore our collection of luxury and niche fragrances. Tell us what you love, and we'll help you find your scent.</p>
+  </div>
+  <div class="products">
+   <div class="product"><h3>For Her</h3><p>Elegant, floral, creamy, fresh and sophisticated fragrances.</p><a class="btn" href="#contact">ENQUIRE</a></div>
+   <div class="product"><h3>For Him</h3><p>Refined, confident and memorable scents for every occasion.</p><a class="btn" href="#contact">ENQUIRE</a></div>
+   <div class="product"><h3>Niche &amp; Private Collection</h3><p>Distinctive fragrances for those looking for something beyond the ordinary.</p><a class="btn" href="#contact">ENQUIRE</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="contact-box">
+  <div class="title"><h2>Find Your Signature</h2></div>
+  <p>Ready to choose your next fragrance? Contact St. Mary Magdalene Scents for recommendations, prices and orders.<br><strong>WhatsApp: +254 692 322 34</strong></p>
+  <a class="btn" href="https://wa.me/25469232234" target="_blank" rel="noopener">ORDER ON WHATSAPP</a>
+ </div>
+</section>
+</main>
+
+<footer>
+  © 2026 St. Mary Magdalene Scents · Your Scent, Your Signature
+</footer>
+</body>
+</html>
