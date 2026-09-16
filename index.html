@@ -157,6 +157,33 @@ footer{border-top:1px solid rgba(215,173,85,.4);padding:25px;text-align:center;c
     grid-template-columns: 1fr;
   }
 }
+/* Mobile hero refinement */
+@media (max-width: 760px) {
+  .hero {
+    min-height: 78vh;
+    background-position: center center;
+  }
+
+  .hero-card {
+    top: 140px;
+    padding: 25px 15px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero .btn {
+    display: block;
+    width: 90%;
+    max-width: 300px;
+    margin: 8px auto;
+  }
+}
 </style>
 </head>
 <body>
